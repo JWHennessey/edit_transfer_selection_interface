@@ -35,18 +35,18 @@ Selection Masks
 
 To create a new scene you need to follow the following folder structure and naming conversion.
 
-Where *foo* is used this can be replaced with relevant channel names. 
+Where \*foo\* it means this word can be replaced with relevant channel name or material id number. 
 
 - folder/
-- - _.*scene name*.txt
+- - _.\*scene name\*.txt
 - - _.exr (Beauty Pass)
-- - _.\**channel1\**.exr (Render Channel 1)
-- - _.*channel2*.exr (Render Channel 2)
+- - _.\*channel1\*.exr (Render Channel 1)
+- - _.\*channel2\*.exr (Render Channel 2)
 - - png/
-- - - _.channel1.png (Render Channel 1 png icon)
-- - - _.channel2.png (Render Channel 1 png icon)
+- - - _.\*channel1\*.png (Render Channel 1 png icon)
+- - - _.\*channel2\*.png (Render Channel 1 png icon)
 - - material_ids
-- - - _.Material_ID*i*.png (All material IDs output to individual channels pure red)
+- - - _.Material_ID\*i\*.png (All material IDs output to individual channels pure red)
 - - selection_polygon (Helper folder to store any selection masks)
 - - candidate_patches (The first time you load a scene these will be created and saved here)
 - - edits (Other parts of the interface allow you to make edits, these will be stored here)
