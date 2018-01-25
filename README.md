@@ -40,7 +40,7 @@ Where *foo* is used this can be replaced with relevant channel names.
 - folder/
 - - _.*scene name*.txt
 - - _.exr (Beauty Pass)
-- - _.**channel1**.exr (Render Channel 1)
+- - _.\**channel1\**.exr (Render Channel 1)
 - - _.*channel2*.exr (Render Channel 2)
 - - png/
 - - - _.channel1.png (Render Channel 1 png icon)
