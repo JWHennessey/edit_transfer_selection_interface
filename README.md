@@ -19,10 +19,10 @@ Warning: The repo is quite large as it comes with several libraries as dependenc
 ## Selection Tool Usage
 
 - On the right hand panel, press the folder icon to open a scene
-- Select the scene .txt file you you like to view
+- Select the scene .txt file you you like to view (demo comes with car and wine scenes)
 - On the right side panel, select the "Selected Channel" tab. This will show all of the render channels
-- On the image use the mouse the click and drag to select a region (alternatively you can use a none rectangle selection mask, described in more detail below)
-- After a few seconds of processing the channels the render channels icons will be ordered from most to least unique. We channels the method thinks the user would like to edit will be outlined in green. Alternatively you can hold the 'a' key to solo these selected channels in the main window. See paper for more details of the selection but we use a threshold to detemine how many are selected that could be more adaptive or user defined parameter.
+- On the image use the mouse to click and drag to select a region (alternatively you can use a none rectangle selection mask, described in more detail below)
+- After a few seconds of processing the channels the render channels icons will be ordered from most to least unique. The channels that the method thinks the user would like to edit will be outlined in green. Alternatively you can hold the 'a' key to solo these selected channels in the main window. 
 
 
 Selection Masks
@@ -40,7 +40,7 @@ Where *foo* is used this can be replaced with relevant channel names.
 - folder/
 - - _.*scene name*.txt
 - - _.exr (Beauty Pass)
-- - _.*channel1*.exr (Render Channel 1)
+- - _.**channel1**.exr (Render Channel 1)
 - - _.*channel2*.exr (Render Channel 2)
 - - png/
 - - - _.channel1.png (Render Channel 1 png icon)
@@ -51,6 +51,6 @@ Where *foo* is used this can be replaced with relevant channel names.
 - - candidate_patches (The first time you load a scene these will be created and saved here)
 - - edits (Other parts of the interface allow you to make edits, these will be stored here)
 
-
+To help create a new scene we provide a blank_template folder
 
 
